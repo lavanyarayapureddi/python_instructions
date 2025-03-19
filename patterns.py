@@ -31,8 +31,9 @@ for i in range(n):
 
 
 #Pyramid pattern
-for i in range(1,6):
-    print(" " * (5-i) + "* " * i)
+n=5
+for i in range(n):
+    print(" " * (n-i) + "* " * i)
 
 #left half pyramid
 n=10
