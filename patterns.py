@@ -28,3 +28,76 @@ n=10
 for i in range(n):
     print("* "*n)
     n-=1
+
+
+#Pyramid pattern
+for i in range(1,6):
+    print(" " * (5-i) + "* " * i)
+
+#left half pyramid
+n=10
+for i in range(n+1):
+    print(" "*(n-i)+"*"*i)
+
+
+# reverse left half pyramid
+n=10
+for i in range(n+1):
+    print(" "*i+"*"*(n-i))
+
+# equalateral triangle
+n=10
+for i in range(n+1):
+    print(" "*(n-i)+"* "*i)
+
+#  reverse equalateral triangle
+n=10
+for i in range(n+1):
+    print(" "*(i)+"* "*(n-i))
+
+
+#Hallow equalateral triangle
+n=10
+for i in range(n):
+    if i==0:
+        print(" "*(n-i)+"* "*(i+1))
+    elif i==n-1:
+        print(" "*(n-i-1)+"* "*(i+2))
+    else:
+        print(" "*(n-i-1)+"*"+"  "*(i)+" *")
+#rev hallow equalateral triangle
+        
+
+#rectangle star pattern
+rows=4
+col=6
+for i in range(rows):
+    print("* "*col)
+
+#hallow rectangle star pattern
+row=5
+col=10
+for i in range(row):
+    if i==0 or i==row-1:
+        print("* "*col)
+    else:
+        print("*"+" "*(2*col-3)+"*")
+    print()        
+        
+# parallelogram star pattern
+row=5
+col=10
+for i in range(row):
+    print(" "*i+"*"*col)
+     
+     
+
+        
+    
+
+
+    
+    
+
+    
+
