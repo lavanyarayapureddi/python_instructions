@@ -109,7 +109,10 @@ n=10
 for  i in range(n):
     for j in range(n):
         print(i,end='')
-    print()   
+    print()
+
+
+
 # basic right angle triangle number patternrows = 4
 num = 1   
 
@@ -118,6 +121,17 @@ for i in range(1, rows + 1):
         print(num, end=" ")
         num += 1  
     print() 
+
+
+#Basic incrementing triangle pattern
+rows = 4  
+col = 6  
+
+for i in range(rows):
+    print(str(col) * (rows - i)) 
+    col -= 1  
+
+
     
     
     
