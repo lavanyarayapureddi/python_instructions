@@ -67,6 +67,13 @@ for i in range(n):
     else:
         print(" "*(n-i-1)+"*"+"  "*(i)+" *")
 #rev hallow equalateral triangle
+n=10
+for i in range(n):
+    if i==0 or i==n-1:
+        print(" "*(i+1)+"* "*(n-i))
+    else:
+        print(" "*i+"*"+"  "*(n-i-1)+"* ")
+        
         
 
 #rectangle star pattern
@@ -108,7 +115,8 @@ n=10
 for i in range(n):
     for j in range(i):
         print(j,end='')
-    print()    
+    print()  
+    
     
 
 
