@@ -113,7 +113,8 @@ for  i in range(n):
 
 
 
-# basic right angle triangle number patternrows = 4
+# basic right angle triangle number pattern
+rows = 4
 num = 1   
 
 for i in range(1, rows + 1): 
@@ -130,6 +131,20 @@ col = 6
 for i in range(rows):
     print(str(col) * (rows - i)) 
     col -= 1  
+
+#basic right angle triangle number pattern inverted
+num = 10
+rows = 4 
+count=4
+for i in range(rows):
+    for j in range(count):
+        print(num, end=" ")
+        num -= 1
+        if num == 0:
+            break  
+    print()
+    count -= 1  
+
 
 
     
