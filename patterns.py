@@ -110,12 +110,15 @@ for  i in range(n):
     for j in range(n):
         print(i,end='')
     print()   
-# basic right angle triangle number pattern
-n=10
-for i in range(n):
+# basic right angle triangle number patternrows = 4
+num = 1   
+
+for i in range(1, rows + 1): 
     for j in range(i):
-        print(j,end='')
-    print()  
+        print(num, end=" ")
+        num += 1  
+    print() 
+    
     
     
 
