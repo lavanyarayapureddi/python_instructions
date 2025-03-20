@@ -102,8 +102,13 @@ n=10
 for  i in range(n):
     for j in range(n):
         print(i,end='')
+    print()   
+# basic right angle triangle number pattern
+n=10
+for i in range(n):
+    for j in range(i):
+        print(j,end='')
     print()    
-        
     
 
 
