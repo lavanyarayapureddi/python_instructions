@@ -94,9 +94,15 @@ for i in range(row):
 #Basic square one pattern
 n=10
 for  i in range(n):
-    print("1"*n)       
+    print("1"*n)
+    
      
-
+#Basic square incrementing  pattern
+n=10
+for  i in range(n):
+    for j in range(n):
+        print(i,end='')
+    print()    
         
     
 
