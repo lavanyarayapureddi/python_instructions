@@ -90,7 +90,11 @@ row=5
 col=10
 for i in range(row):
     print(" "*i+"*"*col)
-     
+
+#Basic square one pattern
+n=10
+for  i in range(n):
+    print("1"*n)       
      
 
         
