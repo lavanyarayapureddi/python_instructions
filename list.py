@@ -55,3 +55,14 @@ b=[7,8,6]
 l=a.extend(b)
 print(a)
 
+#Traversing of a list
+a=[1,True,"sai",2.2]
+for i in a:
+    print(i,end='')
+a=[1,True,"sai",2.2]
+for i in a:
+    print(i)
+a=[1,True,"sai",2.2]
+for i in a:
+    print(i in a)
+
