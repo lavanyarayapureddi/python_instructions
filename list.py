@@ -66,3 +66,23 @@ a=[1,True,"sai",2.2]
 for i in a:
     print(i in a)
 
+
+#sum of numbers in a list i's sum
+a=[1,2,3,4]
+sum=0
+for i in range(1,5):
+    sum+=i
+    print(sum)
+#total sum of a list    
+a=[1,2,3,4]
+sum=0
+for i in range(1,5):
+    sum+=i
+print(sum)    
+#another method
+a=[1,2,3,4]
+b=[5,6,7,8]
+print(sum(a+b))
+   
+
+
