@@ -13,9 +13,9 @@ for i in t:
 print(new_tuple)
 
 #Convert a nested tuple ((1,2), (3,4), (5,6)) into a flat tuple (1,2,3,4,5,6)
-tuple=((1,2,3),(4,5,6),(6,7,8))
+t=((1,2,3),(4,5,6),(6,7,8))
 flat_tuple=()
-for i in tuple:
+for i in t:
     flat_tuple+=i
 print(flat_tuple)    
 
